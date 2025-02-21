@@ -1,0 +1,27 @@
+* {
+    background-color: black;
+    color: yellowgreen;
+    font-family: monospace;
+}
+
+pre {
+    text-align: center;
+    text-shadow: 0 0 5px, 0 0 20px, 0 0 50px;
+}
+
+ul.site_navigation {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul.site_navigation > li {
+    flex: auto;
+    text-align: center;
+    text-shadow: 0 0 5px, 0 0 20px, 0 0 50px;
+}
+
+ul.site_navigation > li :hover {
+    filter: brightness(1.5);
+    text-shadow: 0 0 5px , 0 0 20px, 0 0 60px;
+}
